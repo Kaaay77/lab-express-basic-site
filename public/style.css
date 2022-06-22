@@ -40,11 +40,84 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    gap: 500px;
+    gap: 300px;
+    background-color: rgb(90, 90, 90);
+    height: 761px;
+
 
 }
 p{
-    width: 200px;
-    font-size: 17px;
+    width: 400px;
+    font-size: 25px;
     margin-top: 20%;
+    margin-left: 200px;
+    color: rgb(235, 235, 235);
+}
+#aboutIMG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100px;
+    gap: 50px;
+}
+#containerPelis{
+background-color:  rgb(90, 90, 90);
+height: 656px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.titulo{
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    
+}
+#work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(175, 175, 175);
+
+}
+.subContainer img{
+    height: 200px;
+}
+.subContainer{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+.subContainer h4{
+    font-size: 30px;
+}
+#containerGallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+
+#containerGallery img{
+    width: 400px;
+    height: 300px;
+}
+
+.hGallery{
+    height: 761px;
+    margin-top: 0;
+}
+.h1Gallery{
+    margin: 20px
 }
